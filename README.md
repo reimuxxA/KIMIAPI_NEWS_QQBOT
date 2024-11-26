@@ -11,6 +11,9 @@ KIMIAPI_NEWS_QQBOT 是一个基于 Kimi API 的新闻汇总机器人。它可以
 ## 许可证来源
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
+## 部署成果
+![效果如下](/images/1.png)
+
 ## 目录结构
 ```
 news_summarizeQbot/
