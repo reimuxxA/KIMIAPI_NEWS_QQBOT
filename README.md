@@ -1,8 +1,6 @@
 # KIMIAPI_NEWS_QQBOT
 One solution for QQ group news(Mainly for personal use(主要自用))
 
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
-
 ## 项目简介
 
 KIMIAPI_NEWS_QQBOT 是一个基于 Kimi API 的新闻汇总机器人。它可以定期从互联网上抓取特定主题的新闻，并将汇总结果发送到指定的 QQ 群聊中。该项目使用 Python 编写，依赖于 OpenAI 的 Kimi API 和 NapCat 的 HTTP 服务。
@@ -11,7 +9,7 @@ KIMIAPI_NEWS_QQBOT 是一个基于 Kimi API 的新闻汇总机器人。它可以
 本项目采用 反996许可证1.0 许可证，详情请参见 [LICENSE](LICENSE) 文件。
 
 ## 许可证来源
-[996ICU](996.icu)
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ## 目录结构
 ```
