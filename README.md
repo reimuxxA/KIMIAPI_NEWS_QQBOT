@@ -15,3 +15,22 @@ news_summarizeQbot/
 │   │   └── logger.py
 │   └── config.py
 └── README.md
+
+## 环境要求
+
+- Python 3.8+
+- pip
+
+## 安装步骤
+
+1. **克隆项目**
+
+   git clone https://github.com/yourusername/news_summarizeQbot.git
+   cd news_summarizeQbot
+
+2. **创建虚拟环境（可选）**
+python3 -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+3. **安装依赖**
+pip install -r requirements.txt
