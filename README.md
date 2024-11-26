@@ -133,9 +133,9 @@ schedule.every().friday.at("08:00").do(fetch_and_send_news)
 提交 Pull Request。
 
 ## 许可证
-本项目采用 MIT 许可证，详情请参见 LICENSE 文件。
+本项目采用 反996许可证1.0 许可证，详情请参见 LICENSE 文件。
 
 ## 联系方式
-如果有任何问题或建议，请联系 [your-email@example.com]。
+如果有任何问题或建议，请联系 [hail_head@proton.me]。
 
 感谢你使用 KIMIAPI_NEWS_QQBOT ！希望它能帮助你更高效地获取和分享新闻信息。
