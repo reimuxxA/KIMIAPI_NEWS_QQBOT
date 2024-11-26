@@ -34,3 +34,9 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 3. **安装依赖**
 pip install -r requirements.txt
+
+4. **配置环境**
+ 在config.py填写相关数据
+
+5. **napcatqq**
+   [NapCatQQ](https://napcat.napneko.icu/guide/start-install)
