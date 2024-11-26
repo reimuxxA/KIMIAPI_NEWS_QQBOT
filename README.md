@@ -110,30 +110,32 @@ config.py: 项目配置文件，包含 API 密钥和其他配置项。
 增加重试机制：在 kimi_api.py 中添加对 RateLimitError 的处理，自动重试请求。
 
 如果你需要自定义，去main.py 修改随机范围就可以。
+
 2. **日志文件在哪里？**
 日志文件位于项目根目录下的 news_bot.log。你可以通过查看日志文件来获取更多关于运行状态的信息。
 
-3. 如何调整任务时间？
+3. **如何调整任务时间？**
 编辑 main.py 中的 schedule 配置：
-
-python
-深色版本
+```
 schedule.every().friday.at("08:00").do(fetch_and_send_news)
-4. 如何调试？
+```
+
+4. **如何调试？**
 你可以使用 VSCode 或其他 IDE 的调试功能来调试项目。确保在 .vscode/launch.json 中配置好调试设置。
 
-贡献指南
+## 贡献指南
 欢迎贡献代码和提出改进建议！请遵循以下步骤：
 
-Fork 本项目。
+## Fork 本项目。
 创建一个新的分支：git checkout -b feature/new-feature。
 提交你的更改：git commit -am 'Add new feature'。
 推送到你的分支：git push origin feature/new-feature。
 提交 Pull Request。
-许可证
+
+## 许可证
 本项目采用 MIT 许可证，详情请参见 LICENSE 文件。
 
-联系方式
+## 联系方式
 如果有任何问题或建议，请联系 [your-email@example.com]。
 
-感谢你使用 News Summarize Bot！希望它能帮助你更高效地获取和分享新闻信息。
+感谢你使用 KIMIAPI_NEWS_QQBOT ！希望它能帮助你更高效地获取和分享新闻信息。
