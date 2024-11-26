@@ -5,7 +5,11 @@ One solution for QQ group news(Mainly for personal use(主要自用))
 
 KIMIAPI_NEWS_QQBOT 是一个基于 Kimi API 的新闻汇总机器人。它可以定期从互联网上抓取特定主题的新闻，并将汇总结果发送到指定的 QQ 群聊中。该项目使用 Python 编写，依赖于 OpenAI 的 Kimi API 和 NapCat 的 HTTP 服务。
 
+## 许可证
+本项目采用 反996许可证1.0 许可证，详情请参见 [LICENSE](LICENSE) 文件。
+
 ## 目录结构
+```
 news_summarizeQbot/
 ├── kimi_news_bot/
 │   ├── main.py
@@ -15,7 +19,7 @@ news_summarizeQbot/
 │   │   └── logger.py
 │   └── config.py
 └── README.md
-
+```
 ## 环境要求
 
 - Python 3.8+
@@ -131,9 +135,6 @@ schedule.every().friday.at("08:00").do(fetch_and_send_news)
 提交你的更改：git commit -am 'Add new feature'。
 推送到你的分支：git push origin feature/new-feature。
 提交 Pull Request。
-
-## 许可证
-本项目采用 反996许可证1.0 许可证，详情请参见 LICENSE 文件。
 
 ## 联系方式
 如果有任何问题或建议，请联系 [hail_head@proton.me]。
