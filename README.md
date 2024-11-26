@@ -1,5 +1,5 @@
 # KIMIAPI_NEWS_QQBOT
-One solution for QQ group news(Mainly for personal use(主要作用))
+One solution for QQ group news(Mainly for personal use(主要自用))
 
 ## 项目简介
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 4. **配置环境**
  在config.py填写相关数据
 
-5. **napcatqq**
+5. **NapCatqq**
 此事在官方文档亦有记载（观看文档）
 登录之后，在NapCat/config/onebot11_XXXX.json 修改
 
@@ -83,4 +83,11 @@ pip install -r requirements.txt
 }
 ```
 
+启动NapCat
+
 [NapCatQQ](https://napcat.napneko.icu/guide/start-install)
+
+5. **最后步骤**
+```
+python main.py
+```
